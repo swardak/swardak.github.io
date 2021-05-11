@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef&family=Montserrat:wght@400;500;600&display=swap');
+
+html {
+    height: 100%;
+    width:100%;
+}
+
+body {
+    background-color: #C0D7D8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    margin: 0;
+    padding: 0;
+    margin-top:3vh;
+    color:#333;
+    min-height: 100%;
+    min-width: 100%;
+    
+}
+
+hr {
+    width: 110%;
+    margin-left:-3.5vw;
+}
+
+.landing {
+    max-width: 100%;
+    position: relative;
+    margin:0px;
+}
+
+#pic {
+    max-width: 100%;
+    padding-top:16vh;
+}
+
+.about-me {
+    background-color: #FEFBF3;
+    margin-top: -1vh;
+    padding-bottom: 10vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+}
+
+.link.a {
+    color:#333;
+    text-decoration: none;
+}
+
+.hi {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 33vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hi h1 {
+    margin-bottom: 10px;
+    font-size:3vw;
+}
+
+.hi p {
+    margin-top: 0px;
+    font-size:1.5vw;
+}
+
+.footer {
+    background-color: #8EB284;
+    text-align: center;
+    margin-top: -4vh;
+    margin-block-end:0px;
+    padding-top: 1vh;
+    padding-bottom: 0.7vh;
+}
+
+.footer .big{
+    font-size: 16pt;
+    padding-bottom: .5vh;
+}
+
+.footer .small{
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+.abt-title {
+    color: #8EB284;
+    font-size: 25pt;
+    margin-bottom:1vh;
+}
+
+.abt-text {
+    font-family: 'Lateef', serif;
+    text-align: justify;
+    margin: 0 auto;
+    font-size:25pt;
+}
+
+.intro-text{
+    font-family: 'Lateef', serif;
+    padding-top:5vh;
+    padding-bottom:1.5vh;
+    text-align: center;
+}
+
+.stack, .human {
+    margin-bottom:5vh;
+}
+
+.intro {
+    text-align: center;
+    width: 60vw;
+    display:contents;
+    padding-top:1vh;
+}
+
+a:link, a:visited, a:active {
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    font-size:20px;
+}
+
+a:hover {
+    color: #C5C5C5;
+}
+
+.tech a:link, .tech a:visited, .tech a:hover, .tech a:active {
+    color: #8EB284;
+    text-decoration: none;
+    font-size:25pt;
+}
+
+.abt-title.right {
+   text-align: right;
+}
+
+.abt-title.left {
+    text-align: left;
+ }
+ .white-link {
+     margin-bottom: 5px;
+ }
+
+ .white-link a {
+     font-weight: 600;
+ }
+
+ .white-link a:hover {
+    color: white;
+}
+
+/*the following was borrowed & tweaked frm w3schools.com :)*/
+
+.navbar {
+    background-color: #FEFBF3;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    max-width: fit-content;
+    position: relative;
+    float: right;
+    border-radius: 15px;
+    margin-right: 3vw;
+    margin-top: 3vh;
+    height:fit-content;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .navbar a:hover {
+    color: #C5C5C5;
+  }
+  
+  .navbar a.active {
+    font-weight: 600;
+  }
+  
+  .navbar .hamburger-icon {
+    display: none;
+  }
+
+@media screen and (max-width: 680px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.hamburger-icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 680px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.hamburger-icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
