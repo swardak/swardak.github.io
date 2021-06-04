@@ -230,7 +230,7 @@ a:hover {
     }
 
     .right {
-        text-align: left;
+        text-align: left !important;
     }
   }
 
