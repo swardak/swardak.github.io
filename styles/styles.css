@@ -223,6 +223,11 @@ a:hover {
     .small{
         font-size: smaller;
     }
+
+    .flex-mid {
+        text-align: left;
+        width: 80%;
+    }
   }
 
   @-moz-document url-prefix() { 
