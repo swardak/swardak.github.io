@@ -181,7 +181,6 @@ a:hover {
   @media screen and (max-width: 815px) {
     .navbar.responsive {
         position: relative;
-        z-index: 100000;
     }
     .navbar.responsive a.hamburger-icon {
       position: absolute;
@@ -192,7 +191,6 @@ a:hover {
       float: none;
       display: block;
       text-align: left;
-      font-size: x-large;
     }
 
     h1 {
@@ -209,8 +207,21 @@ a:hover {
     h1 {
         margin-top: 25%;
     }
+    
     h2 {
         margin-bottom: 55%;
+    }
+
+    h3 {
+        font-size: large;
+    }
+
+    body{
+        font-size: medium;
+    }
+
+    .small{
+        font-size: smaller;
     }
   }
 
