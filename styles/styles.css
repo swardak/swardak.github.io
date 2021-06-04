@@ -232,6 +232,10 @@ a:hover {
     .right {
         text-align: left !important;
     }
+
+    .intro {
+        text-align: center !important;
+    }
   }
 
   @-moz-document url-prefix() { 
