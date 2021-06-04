@@ -1,156 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Lateef&family=Montserrat:wght@400;500;600&display=swap');
 
 html {
-    height: 100%;
-    width:100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    background-color: #C0D7D8;
+    width: 100%;
+    color: #333;
 }
 
 body {
-    background-color: #C0D7D8;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
-    margin: 0;
-    padding: 0;
-    margin-top:3vh;
-    color:#333;
-    min-height: 100%;
-    min-width: 100%;
-    
+    width: inherit;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    line-height: 1.5;
+  }
+
+img {
+    max-width: 100%;
+    margin-top: -10rem;
+    z-index: -10000;
 }
 
-hr {
-    width: 110%;
-    margin-left:-3.5vw;
+h1{
+    margin: 0;
+    margin-top: 35%;
+    text-align: center;
+    font-size: 250%;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h3{
+    color: #8EB284;
+    font-size:xx-large;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0.5rem;
+}
+
+.right {
+    text-align: right;
 }
 
 .landing {
+    margin-top: 2rem;
     max-width: 100%;
-    position: relative;
-    margin:0px;
-}
-
-#pic {
-    max-width: 100%;
-    padding-top:16vh;
-}
-
-.about-me {
-    background-color: #FEFBF3;
-    margin-top: -1vh;
-    padding-bottom: 10vh;
-    padding-left: 15vw;
-    padding-right: 15vw;
-
-}
-
-.link.a {
-    color:#333;
-    text-decoration: none;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .hi {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    top: 33vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.hi h1 {
-    margin-bottom: 10px;
-    font-size:3vw;
-}
-
-.hi p {
-    margin-top: 0px;
-    font-size:1.5vw;
-}
-
-.footer {
-    background-color: #8EB284;
-    text-align: center;
-    margin-top: -4vh;
-    margin-block-end:0px;
-    padding-top: 1vh;
-    padding-bottom: 0.7vh;
-}
-
-.footer .big{
-    font-size: 16pt;
-    padding-bottom: .5vh;
-}
-
-.footer .small{
-    font-size: 12pt;
-    font-weight: 600;
-}
-
-.abt-title {
-    color: #8EB284;
-    font-size: 25pt;
-    margin-bottom:1vh;
-}
-
-.abt-text {
-    font-family: 'Lateef', serif;
-    text-align: justify;
     margin: 0 auto;
-    font-size:25pt;
+    display: flex;
+    flex-direction: column;
 }
 
-.intro-text{
-    font-family: 'Lateef', serif;
-    padding-top:5vh;
-    padding-bottom:1.5vh;
+.about-me{
+    background-color: #FEFBF3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0rem;
+    margin-top: -1rem;
+}
+
+.flex-mid{
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.center {
     text-align: center;
 }
 
-.stack, .human {
-    margin-bottom:5vh;
-}
-
-.intro {
-    text-align: center;
-    width: 60vw;
-    display:contents;
-    padding-top:1vh;
-}
-
-a:link, a:visited, a:active {
-    color: #333;
-    font-weight: 500;
+a {
     text-decoration: none;
-    font-size:20px;
+    color: #333;
+    font-weight: 600;
 }
 
 a:hover {
     color: #C5C5C5;
 }
 
-.tech a:link, .tech a:visited, .tech a:hover, .tech a:active {
-    color: #8EB284;
-    text-decoration: none;
-    font-size:25pt;
+.green {
+    color:#8EB284;
 }
 
-.abt-title.right {
-   text-align: right;
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8EB284;
+    padding: 1.5rem 0rem;
+    font-size: smaller;
+    font-weight: 500;
 }
 
-.abt-title.left {
-    text-align: left;
- }
- .white-link {
-     margin-bottom: 5px;
- }
-
- .white-link a {
-     font-weight: 600;
- }
-
- .white-link a:hover {
+.footer a:hover {
     color: white;
+}
+
+.small {
+    margin-top: 0.5rem;
+    font-size: medium;
+}
+
+.big {
+    margin-bottom: 0.5rem;
 }
 
 /*the following was borrowed & tweaked frm w3schools.com :)*/
@@ -158,25 +130,23 @@ a:hover {
 .navbar {
     background-color: #FEFBF3;
     overflow: hidden;
-    font-family: 'Montserrat', sans-serif;
     max-width: fit-content;
-    position: relative;
-    float: right;
     border-radius: 15px;
     margin-right: 3vw;
     margin-top: 3vh;
     height:fit-content;
+    position: relative;
+    float: right;
+    font-size: smaller;
   }
   
   .navbar a {
     float: left;
     display: block;
-    color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    
+    font-weight: 500;
   }
   
   .navbar a:hover {
@@ -191,7 +161,16 @@ a:hover {
     display: none;
   }
 
-@media screen and (max-width: 680px) {
+  @media screen and (max-width: 1200px) {
+    h1 {
+        margin-top: 35%;
+    }
+    h2 {
+        margin-bottom: 15%;
+    }
+  }
+
+@media screen and (max-width: 815px) {
     .navbar a:not(:first-child) {display: none;}
     .navbar a.hamburger-icon {
       float: right;
@@ -199,8 +178,11 @@ a:hover {
     }
   }
   
-  @media screen and (max-width: 680px) {
-    .navbar.responsive {position: relative;}
+  @media screen and (max-width: 815px) {
+    .navbar.responsive {
+        position: relative;
+        z-index: 100000;
+    }
     .navbar.responsive a.hamburger-icon {
       position: absolute;
       right: 0;
@@ -210,5 +192,30 @@ a:hover {
       float: none;
       display: block;
       text-align: left;
+      font-size: x-large;
+    }
+
+    h1 {
+        margin-top: 15%;
+        font-size: 200%;
+    }
+    h2 {
+        margin-bottom: 35%;
+        font-size: 130%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+        margin-top: 25%;
+    }
+    h2 {
+        margin-bottom: 55%;
+    }
+  }
+
+  @-moz-document url-prefix() { 
+    .intro {
+       margin-bottom: 1.5%;
     }
   }
