@@ -228,6 +228,10 @@ a:hover {
         text-align: left;
         width: 80%;
     }
+
+    .right {
+        text-align: left;
+    }
   }
 
   @-moz-document url-prefix() { 
