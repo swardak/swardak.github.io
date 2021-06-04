@@ -225,6 +225,10 @@ a:hover {
     }
 
     .flex-mid {
+        width: 80%;
+    }
+
+    .aboutme .flex-mid {
         text-align: left;
         width: 80%;
     }
@@ -233,9 +237,6 @@ a:hover {
         text-align: left !important;
     }
 
-    .intro {
-        text-align: center !important;
-    }
   }
 
   @-moz-document url-prefix() { 
