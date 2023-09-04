@@ -1,129 +1,175 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>hi, how are ya?</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./styles/styles.css">
-  <link rel="shortcut icon" href="./assets/favicon.ico">
-  <script src="./scripts/script.js"></script>
-</head>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>hi, how are ya?</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="./styles/styles.css"/>
+        <link rel="shortcut icon" href="./assets/favicon.ico"/>
+        <script src="./scripts/script.js"></script>
+    </head>
 
-<body>
-  <div class="landing">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+        <div class="landing">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
-    <div class="navbar" id="nav">
-      <a href="#home" class="nav-item active">home</a>
-      <a href="./assets/shkula_resume_2022.pdf" class="nav-item" target="_blank">resume</a>
-      <a href="#links" class="nav-item">links</a>
-      <a href="#internship-exp" class="nav-item">internships</a> 
-      <a href="#tech-exp" class="nav-item">experience</a>
-      <a href="#tech-interests" class="nav-item">tech interests</a>
-      <a href="#personal-interests" class="nav-item">personal interests</a>
-      <a href="javascript:void(0);" class="hamburger-icon" onclick="toggleHamburger()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
+            <div class="navbar" id="nav">
+                <a href="#home" class="nav-item">home</a>
+                <a href="./assets/shkula_resume_2023.pdf" class="nav-item" target="_blank">resume</a>
+                <a href="#links" class="nav-item">links</a>
+                <a href="#internship-exp" class="nav-item">internships</a>
+                <a href="#tech-exp" class="nav-item">experience</a>
+                <a href="#tech-interests" class="nav-item">tech interests</a>
+                <a href="#personal-interests" class="nav-item">personal interests</a>
+                <a href="javascript:void(0);" class="hamburger-icon" onclick="toggleHamburger()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
 
-    <div class="hi">
-      <h1>hi, how are ya?</h1>
-      <h2>my name's shkula</h2>
-    </div>
+            <div class="hi">
+                <h1>hi, how are ya?</h1>
+                <h2>my name's shkula</h2>
+            </div>
 
-    <img src="./assets/hehe.svg">
+            <img src="./assets/hehe.svg"/>
+        </div>
 
-  </div>
+        <div class="about-me">
+            <div class="intro flex-mid center">
+                <p id="links">
+                    recent computer science graduate from the university of ottawa.<br/>
+                    seeking new grad software engineering roles in the US & canada.
+                </p>
 
-  <div class="about-me">
-    <div class="intro flex-mid center">
-      <p id="links">
-        i’m a 4th year computer science student @ the university of ottawa.<br>
-        i code professionally & i bike recreationally.
-      </p>
+                <div>
+                    <a href="./assets/shkula_resume_2023.pdf" target="_blank">resume</a>
+                    <span>
+                        |
+                    </span>
+                    <a href="https://linkedin.com/in/shkula/" target="_blank">linkedin</a>
+                    <span>
+                        |
+                    </span>
+                    <a href="https://github.com/swardak" target="_blank">github</a>
+                </div>
+            </div>
+            <br/>
+            <hr class="flex-mid"/>
 
-      <div>
-        <a href="https://linkedin.com/in/shkula/" target="_blank">linkedin</a>
-        <span> | </span>
-        <a href="https://github.com/swardak" target="_blank">github</a>
-        <span> | </span>
-        <a href="./assets/shkula_resume_2022.pdf" target="_blank">resume</a>
-      </div>
-    </div>
-    <br>
-    <hr class="flex-mid">
+            <div class="words flex-mid" id="internship-exp">
+                <h3>internships</h3>
+                <p>
+                    <span class="bold">amazon<span class='gone'>
+                            //</span>
+                    </span>
+                    <span class="hidden-br date-right">
+                        summer 2022</span><br class="hidden-br"/>software development engineer intern
+                    <span class="date-right gone">summer 2022</span><br/>
+                    <span class="bold">vidyard<span class='gone'>
+                            //</span>
+                    </span>
+                    <span class="hidden-br date-right">
+                        winter 2022</span><br class="hidden-br"/>software developer intern
+                    <span class="date-right gone">winter 2022</span><br/>
+                    <span class="bold">zendesk<span class='gone'>
+                            //</span>
+                    </span>
+                    <span class="hidden-br date-right">
+                        fall 2021</span><br class="hidden-br"/>software developer intern
+                    <span class="date-right gone">fall 2021</span><br/>
+                    <span class="bold longened">ribbon communications<span class='gone'>
+                            //</span>
+                    </span>
+                    <span class="bold shortened">rbbn</span>
+                    <span class="hidden-br date-right">
+                        winter 2021</span><br class="hidden-br"/>software
+                                developer intern
+                    <span class="date-right gone">winter 2021</span><br/>
+                    <span class="bold">health canada<span class='gone'>
+                            //</span>
+                    </span>
+                    <span class="hidden-br date-right">
+                        summer 2020</span><br class="hidden-br"/>junior technical analyst
+                    <span class="date-right gone">summer 2020</span>
+                </p>
+            </div>
 
-    <div class="words flex-mid" id="internship-exp">
-      <h3>previous internships</h3>
-      <p>
-        <span class="bold">amazon</span><span class="gone"> | </span><br class="hidden-br">software developement engineer intern <span class="date-right gone">may 2022 - jul. 2022</span><br>
-        <span class="bold">vidyard</span><span class="gone"> | </span><br class="hidden-br">software developer intern <span class="date-right gone">jan. 2022 - apr. 2022</span><br>
-        <span class="bold">zendesk</span><span class="gone"> | </span><br class="hidden-br">software developer intern <span class="date-right gone">sep. 2021 - dec. 2021</span><br>
-        <span class="bold">ribbon communications</span><span class="gone"> | </span><br class="hidden-br">software developer intern <span class="date-right gone">jan. 2021 - apr. 2021</span><br>
-        <span class="bold">health canada</span><span class="gone"> | </span><br class="hidden-br">junior technical analyst <span class="date-right gone">jun. 2020 - aug. 2020</span>
-      </p>
-    </div>
+            <div class="words flex-mid" id="tech-exp">
+                <h3>experience</h3>
+                <p>
+                    i've had the opportunity to learn a ton about software development
+                            both at school & at my internships. i've had
+                            the opportunity to do some
+                    <span class="bold">frontend development</span>
+                    through my internships, where i primarily used angular, typescript, javascript, and html /
+                            css. i've also worked in
+                    <span class="bold">devops</span>
+                    and
+                    <span class="bold">infrastructure</span>, and gotten a better
+                                understanding of kubernetes, docker, aws, and python. in school, my favourite classes
+                                were intro to data science, intro to ai &
+                                operating systems.
+                </p>
+            </div>
 
-    <div class="words flex-mid" id="tech-exp">
-      <h3>experience</h3>
-      <p>
-        i've had the opportunity to learn a ton about software development both at school & at my internships.
-        i've worked in the <span class="bold">devops</span> and <span class="bold">infrastructure</span> space, and
-        gotten a better understanding of
-        kubernetes, docker, aws, and python. i've also had the opportunity to do some <span class="bold">frontend
-          development</span> using
-        angular, html, css & scss, javascript and typescript. at school, my favourite classes have so far
-        been design of secure computer systems, intro to ai & intro to data communications & networking.
-      </p>
-    </div>
+            <div class="words flex-mid" id="tech-interests">
+                <h3>tech interests</h3>
+                <p>
+                    as i’ve learned more about the tech industry through internships, i’ve
+                            discovered a passion for backend development, infrastructure, cloud,
+                            and the intersection of tech & healthcare. i’ve also discovered a love for teaching through my work as the
+                    <span class="bold">Workshops Lead</span>
+                    of an
+                            organization called
+                    <a href="https://www.projecttechcareers.com/outreach/" target="_blank" class="bold">Project Tech Careers</a>
+                    where i created
+                            multiple workshops encouraging young people to explore the world of tech.
+                </p>
+            </div>
 
-    <div class="words flex-mid" id="tech-interests">
-      <h3>tech interests</h3>
-      <p>
-        as i’ve learned more about the tech industry through internships, i’ve
-        discovered a passion for backend development,
-        infrastructure, cloud, and the intersection of tech & healthcare. i’ve also had the chance to create
-        multiple workshops encouraging young people to explore the world of tech as the <span class="bold">Workshops
-          Lead</span> of
-        an organization called <span class="bold">Project Tech Conferences</span> (which you can check out
-        <a href="https://projecttechconferences.com/outreach/" target="_blank" class="bold">here</a>!)
-      </p>
-    </div>
+            <div class="words flex-mid" id="personal-interests">
+                <h3>human interests</h3>
+                <p>
+                    in my free time, i enjoy biking around my city, knitting hats,
+                            dabbling in landscape photography, doing aerial yoga at my local gym,
+                            playing field hockey with my school's club, watching soccer (força
+                            barça!), skiing, tending to my numerous plants & learning about urban
+                            planning + design. i'm also super passionate about mentorship,
+                            particularly in the tech space with underrepresented communities. i've
+                            had the opportunity to be a
+                    <span class="bold">technical mentor @
+                    </span>
+                    <a href="https://www.technovation.org/" target="_blank" class="bold">Technovation</a>, where i
+                                help middle school girls build apps to solve a UN sustainable
+                                development goal!
+                </p>
+            </div>
+        </div>
 
-    <div class="words flex-mid" id="personal-interests">
-      <h3>human interests</h3>
-      <p>
-        in my free time, i enjoy biking around my city, knitting hats, dabbling in landscape photography, doing aerial
-        yoga at my local gym, playing field hockey
-        with my school's club, watching soccer (força barça!), skiing, tending to my numerous plants &
-        learning about architecture. i'm also super passionate about mentorship, particularly in the tech
-        space with underrepresented communities. i'm a <span class="bold">technical mentor @ technovation</span>, where
-        i help middle
-        school girls build apps to solve a UN sustainable development goal!
-      </p>
-    </div>
-  </div>
-
-  <div class="footer">
-    <p class="big flex-mid center">
-      hey, thanks for making it down here! hope you're having a great day. :)<br>
-      to get in touch with me, email me at <a href="mailTo:shkula.wardak@gmail.com">
-        shkula.wardak@gmail.com</a> !
-    </p>
-    <div class="flex-mid center">
-      <a href="https://linkedin.com/in/shkula/" target="_blank">linkedin</a>
-      <span> | </span>
-      <a href="https://github.com/swardak" target="_blank">github</a>
-      <span> | </span>
-      <a href="./assets/shkula_resume_2022.pdf" target="_blank">resume</a>
-    </div>
-    <p class="small flex-mid center">
-      made with ❤️ by shkula<br>2022
-    </p>
-  </div>
-</body>
+        <div class="footer">
+            <p class="big flex-mid center">
+                hope you're having a great day. :)<br/>
+                to get in touch with me, email me at
+                <a href="mailTo:shkula.wardak@gmail.com">
+                    shkula.wardak@gmail.com</a>
+                !
+            </p>
+            <div class="flex-mid center">
+                <a href="./assets/shkula_resume_2023.pdf" target="_blank">resume</a>
+                <span>
+                    |
+                </span>
+                <a href="https://linkedin.com/in/shkula/" target="_blank">linkedin</a>
+                <span>
+                    |
+                </span>
+                <a href="https://github.com/swardak" target="_blank">github</a>
+            </div>
+            <p class="small flex-mid center">made with ❤️ by shkula<br/>2023</p>
+        </div>
+    </body>
 
 </html>
